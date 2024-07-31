@@ -2,7 +2,7 @@
 A simple script to help me install my favourite fonts fast.
 
 ## How to install
-Just hit:
+Clone the repository and hit:
 ```
 ./install.sh
 ```
