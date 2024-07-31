@@ -1,7 +1,7 @@
 # font-installer
 A simple script to help me install my favourite fonts fast.
 
-# How to install
+## How to install
 Just hit:
 ```
 ./install.sh
