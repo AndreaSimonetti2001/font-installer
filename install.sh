@@ -21,7 +21,11 @@ if [[ ! "$choice" =~ ^[0-3]$ ]]; then
   exit 1
 fi
 
-case $numero in
+if [[ "$choice" =~ ^[1-3]$  &&  ! $EUID -eq 0 && ! -d "$FONTDIR" ]]; then
+  mkdir "$FONTDIR"
+fi
+
+case $choice in
   0)
     exit 0
     ;;
@@ -33,6 +37,7 @@ case $numero in
     else
       echo "The Adobe font set can't be installed, missing directory."
     fi
+    exit 0
     ;;
   2)
     if [[ -d "paloalto" ]]; then
@@ -42,7 +47,7 @@ case $numero in
     else
       echo "The Palo Alto font set can't be installed, missing directory."
     fi
-    ;;
+    exit 0
     ;;
   3)
     if [[ -d "redmond" ]]; then
@@ -52,7 +57,7 @@ case $numero in
     else
       echo "The Redmond font set can't be installed, missing directory."
     fi
-    ;;
+    exit 0
     ;;
   *)
     echo "Invalid choice. Exiting."
