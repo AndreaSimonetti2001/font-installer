@@ -21,6 +21,6 @@ As reported in the installer, you can have different font sets.
 
 | Font Set  | Monospace         | Sans Serif      | Serif         |
 |-----------|-------------------|-----------------|---------------|
-| Adobe     | Source Code Pro   | Source Sans 3   | Source Serif 4|
-| Palo Alto | JetBrains Mono    | Inter           | Roboto Slab   |
-| Redmond   | Cascadia Code     | Clear Sans      | CMU Serif     |
+| _Adobe_     | Source Code Pro   | Source Sans 3   | Source Serif 4|
+| _Palo Alto_ | JetBrains Mono    | Inter           | Roboto Slab   |
+| _Redmond_   | Cascadia Code     | Clear Sans      | CMU Serif     |
