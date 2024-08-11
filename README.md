@@ -13,7 +13,7 @@ The script will automatically detect whether you're running it as root or as use
 ## One-line installer
 Here it is an automatic installer for installing it as user.
 ```
-git clone https://github.com/AndreaSimonetti2001/font-installer; cd font-installer; chmod 777 install.sh; ./install.sh
+git clone https://github.com/AndreaSimonetti2001/font-installer && cd font-installer && chmod 777 install.sh && ./install.sh
 ```
 
 ## Font sets
