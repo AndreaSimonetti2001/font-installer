@@ -11,7 +11,7 @@ fi
 echo "Which font set do you want to install?"
 echo
 echo "N.  NAME          MONOSPACE        SANS           SERIF"
-echo "1.  Independent   Cascadia Code    Andika         Gentium"
+echo "1.  Independent   Cascadia Code    Clear Sans     Lora"
 echo "2.  Apple         SF Mono          SF Pro         New York"
 echo "3.  Adobe         Source Code Pro  Source Sans 3  Source Serif 4"
 echo "4.  JetBrains     JetBrains Mono   Inter          Roboto Slab"

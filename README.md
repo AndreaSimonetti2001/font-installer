@@ -21,7 +21,7 @@ As reported in the installer, you can have different font sets.
 
 | Font Set  | Monospace         | Sans Serif      | Serif         |
 |-----------|-------------------|-----------------|---------------|
-| _Independent_   | Cascadia Code     | Andika      | Gentium     |
+| _Independent_   | Cascadia Code     | Clear Sans      | Lora     |
 | _Apple_   | SF Mono     | SF Pro      | New York     |
 | _Adobe_     | Source Code Pro   | Source Sans 3   | Source Serif 4|
 | _JetBrains_ | JetBrains Mono    | Inter           | Roboto Slab   |
