@@ -15,16 +15,17 @@ echo "1.  Independent   Cascadia Code    Clear Sans     Lora"
 echo "2.  Apple         SF Mono          SF Pro         New York"
 echo "3.  Adobe         Source Code Pro  Source Sans 3  Source Serif 4"
 echo "4.  JetBrains     JetBrains Mono   Inter          Roboto Slab"
+echo "5.  Microsoft     Aptos Mono       Aptos          Aptos Serif"
 echo "0.  EXIT"
 echo
 read -p "> " choice
 
-if [[ ! "$choice" =~ ^[0-4]$ ]]; then
+if [[ ! "$choice" =~ ^[0-5]$ ]]; then
   echo "Invalid choice. Exiting."
   exit 1
 fi
 
-if [[ "$choice" =~ ^[1-4]$  &&  ! $EUID -eq 0 && ! -d "$FONTDIR" ]]; then
+if [[ "$choice" =~ ^[1-5]$  &&  ! $EUID -eq 0 && ! -d "$FONTDIR" ]]; then
   mkdir "$FONTDIR"
 fi
 
@@ -69,6 +70,16 @@ case $choice in
       echo "Done."
     else
       echo "The JetBrains font set can't be installed, missing directory."
+    fi
+    exit 0
+    ;;
+  5)
+    if [[ -d "microsoft" ]]; then
+      echo "Installing the Microsoft font set in $FONTDIR..."
+      cp -r microsoft/* "$FONTDIR"
+      echo "Done."
+    else
+      echo "The Microsoft font set can't be installed, missing directory."
     fi
     exit 0
     ;;

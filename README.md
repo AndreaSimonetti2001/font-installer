@@ -25,4 +25,4 @@ As reported in the installer, you can have different font sets.
 | _Apple_   | SF Mono     | SF Pro      | New York     |
 | _Adobe_     | Source Code Pro   | Source Sans 3   | Source Serif 4|
 | _JetBrains_ | JetBrains Mono    | Inter           | Roboto Slab   |
-
+| _Microsoft_ | Aptos Mono    | Aptos           | Aptos Serif   |
